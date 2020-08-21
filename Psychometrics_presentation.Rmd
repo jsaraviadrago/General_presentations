@@ -100,6 +100,28 @@ class: inverse, center, middle
 --
 
 ---
+# Teoría sobre psicometría
+
+--
+
+.pull-left[##Teoría clásica de los test
+
+Está basado en los puntajes que se pueden obtener de la prueba y que esa medición será un representación exacta de la característica de la persona. **Aplicaciones:** casi cualquier cuestionario. ] 
+
+--
+
+.pull-right[##Teoría respuesta al ítem
+
+Está basado no solo en los puntajes, sino también en el peso que tienen los ítems y el puntaje final de la persona se deriva de la relación de ambos. **Aplicaciones:** en realidad casi cualquier cuestionario pero primordialmente en el ámbito educativo. ]
+
+--
+
+---
+
+
+---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
