@@ -1,25 +1,112 @@
 ---
-title: "Una vista veloz a la construcción y análisis de cuestionarios"
+title: "Un ojo a la construcción y análisis de cuestionarios"
 author: Juan Carlos Saravia
 output: xaringan::moon_reader
 ---
-class: center
-# Tipos de cuestionarios
+# Objetivos
+
+- Revisar brevemente sobre tipos de cuestionarios
+
+- Delimitar la cantidad de preguntas que se deben aplicar en un cuestionario
+
+- Mencionar el balance entre preguntas abiertas y cerradas. 
+
+- Mencionar casos de uso sobre las herramientas que hay que utilizar.
+
+- Mostrar ejemplos de análisis estadísticos con cuestionarios
+
+---
+class: left
+#Un poco de teoría
+
+## Tipos de cuestionarios
+
+- Respuestas dicotómicas: preguntas de sí y no. 
+
+- Respuestas politómicas: preguntas de opciones múltiples y escala Likert. 
+
+- Preguntas abiertas: texto abierto
+
+- Otras escalas: Thurstone, Gutmann, etc. 
+
+--
+
+## Ya, muy interesante pero cuál escala debo usar...
+--
+
+## Cuántas preguntas debo tener y cuántas abiertas?
+--
 
 
+## Qué herramientas debo utilizar?
+--
+
+
+---
+# Cuál debo usar? Cuántas preguntas debo tener y cuántas abiertas?
+
+--
+La respuesta es **depende** del objetivo del relevamiento de la información. 
+
+--
+
+
+.center[<img src="images.jpeg" style="width:20%; margin-right: 20px" fig.align="center">]
+--
+
+- Sobre la extensión, depende de la complejidad de la preguntas.
+
+--
+
+- Sobre las **preguntas abiertas**, las menos posibles a menos que se pueden categorizar con especialistas en lugar de algortimos. 
+
+--
+
+- Si ponemos un número mágico serán **15 preguntas** por cuestionario. Un número no mágico deben ser **3 preguntas** por constructo. 
+
+--
+
+---
+
+# Qué herramientas debo utilizar?
+
+--
+
+.pull-left[<img src="cuestionarios.jpg" style="width:70%; margin-right: 10px">]
+
+--
+
+.pull-right[Cuestionarios de **preguntas cerradas** cara a cara o teléfono sobretodo si es más dificil que la persona entienda el cuestionario.
+] 
+
+--
+
+
+.pull-right[Aplicaciones con **google forms** o **nitro** siempre y cuando sea un grupo etareo donde la conectividad no sea un problema.] 
+
+
+--
+
+
+
+---
+class: inverse, center, middle
+
+--
+#Hasta ahí...
+
+--
+# Preguntas?
+--
+
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 #library(xaringan) # Just to load the package to make the presentation
 ```
 
----
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ---
 
